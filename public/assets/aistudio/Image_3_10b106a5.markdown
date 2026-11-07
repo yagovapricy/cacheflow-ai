@@ -1,0 +1,247 @@
+---
+name: CacheFlow Precision System
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#464554'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#767586'
+  outline-variant: '#c7c4d7'
+  surface-tint: '#494bd6'
+  primary: '#4648d4'
+  on-primary: '#ffffff'
+  primary-container: '#6063ee'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#c0c1ff'
+  secondary: '#0051d5'
+  on-secondary: '#ffffff'
+  secondary-container: '#316bf3'
+  on-secondary-container: '#fefcff'
+  tertiary: '#006c49'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00885d'
+  on-tertiary-container: '#000703'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#dbe1ff'
+  secondary-fixed-dim: '#b4c5ff'
+  on-secondary-fixed: '#00174b'
+  on-secondary-fixed-variant: '#003ea8'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-hero:
+    fontFamily: Inter
+    fontSize: 3.5rem
+    fontWeight: '700'
+    lineHeight: '1.1'
+    letterSpacing: -0.035em
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: '1.2'
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Inter
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: '1.25'
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: '1.3'
+    letterSpacing: -0.025em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: '1.35'
+    letterSpacing: -0.02em
+  title-sm:
+    fontFamily: Inter
+    fontSize: 1rem
+    fontWeight: '600'
+    lineHeight: '1.4'
+    letterSpacing: -0.015em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: '1.5'
+    letterSpacing: -0.01em
+  body-base:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: '1.5'
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '400'
+    lineHeight: '1.45'
+    letterSpacing: '0'
+  code-inline:
+    fontFamily: JetBrains Mono
+    fontSize: 0.8125rem
+    fontWeight: '500'
+    lineHeight: '1.4'
+    letterSpacing: -0.02em
+  code-block:
+    fontFamily: JetBrains Mono
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: '1.6'
+    letterSpacing: '0'
+  data-metric:
+    fontFamily: Inter
+    fontSize: 1.875rem
+    fontWeight: '600'
+    lineHeight: '1.2'
+    letterSpacing: -0.03em
+  label-mono-caps:
+    fontFamily: JetBrains Mono
+    fontSize: 0.6875rem
+    fontWeight: '600'
+    lineHeight: '1'
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system embodies the precision, technical density, and architectural clarity demanded by production engineering teams. Built for high-throughput API caching and automated cost optimization, the visual language balances utilitarian speed with top-tier executive SaaS refinement.
+
+### Target Audience & Emotional Impact
+- **Audience:** Principal infrastructure engineers, backend leads, DevOps practitioners, and FinOps managers monitoring millions of API invocations.
+- **Tone:** Methodical, surgical, transparent, and authoritative.
+- **Aesthetic Movement:** Modern Technical Minimalist with hyper-structured typography, micro-borders, low-altitude surface separation, and functional telemetry accents. Every pixel communicates latency reductions and financial savings without ornamental noise.
+
+## Colors
+
+The palette establishes an ultra-clean base with sharp, surgical telemetry indicators. Light surfaces prioritize day-long readability in high-density data views, while distinct status pigments signal latency thresholds and financial outcomes.
+
+### Core Canvas & Surfaces
+- **Canvas Base:** `#F8FAFC` (Slate-50) creates an unpolluted, glare-free foundation.
+- **Card & Panel Fill:** `#FFFFFF` (Solid white) providing crisp foreground separation.
+- **Sub-surfaces & Code Wells:** `#F1F5F9` (Slate-100) and `#0F172A` (Slate-900 for terminal environments).
+- **Structural Borders:** `#E2E8F0` (Slate-200) with dynamic hover transitions to `#CBD5E1` (Slate-300).
+
+### Action & Functional Accents
+- **Primary (Electric Violet / Indigo):** `#6366F1` driving primary CTAs, active filters, and routing logic. Hover state deepens to `#4F46E5`.
+- **Secondary (Infrastructure Blue):** `#2563EB` and `#0284C7` for query runners, endpoint badges, and network telemetry traces.
+- **Cache Hit & Savings (Emerald):** `#10B981` (Surface fill tint: `#ECFDF5`, text: `#047857`) for positive unit-economics and instant cache hits.
+- **Cache Miss & Latency Penalty (Crimson):** `#F43F5E` (Surface fill tint: `#FFF1F2`, text: `#BE123C`) for bypassed queries and upstream cold-starts.
+- **Degraded & Warning (Amber):** `#F59E0B` (Surface fill tint: `#FFFBEB`, text: `#B45309`) for TTL expiration warnings and rate-limit thresholds.
+
+## Typography
+
+The typographic hierarchy is calibrated for structural density, split strictly into two roles:
+1. **Inter:** Handles interface navigation, executive KPIs, table headers, and form inputs. Tight negative tracking gives headings an engineered, architectural density.
+2. **JetBrains Mono:** Handles payload snippets, HTTP status codes, latency timings (e.g., `42ms`), header hashes, and cURL requests.
+
+### Scaling & Rendering Rules
+- Tabular figures (`font-variant-numeric: tabular-nums`) must be enforced across all metrics, timestamps, and cost calculations to eliminate horizontal jitter during live telemetry updates.
+- All uppercase section indicators utilize `label-mono-caps` with strict `0.06em` letter spacing for scannable column layouts.
+
+## Layout & Spacing
+
+This design system uses a strict 8pt base grid with a 4pt micro-step for tight developer tool utility components (input paddings, badges, inline code tokens).
+
+### Canvas Architecture
+- **Console Grid:** Fluid-responsive 12-column layout flanked by an anchored 240px left-hand collapsible navigation bar.
+- **Max Content Container:** 1440px for standard dashboards; 100% fluid edge-to-edge for request stream log inspectors and real-time trace watermarks.
+- **Breakpoints:**
+  - Mobile: `< 640px` (Single column cards, hidden tabular micro-metrics, stacked timeline views).
+  - Tablet: `640px - 1024px` (6-column layout, metrics grid at 2 columns).
+  - Desktop: `> 1024px` (Full 12-column structure with side-by-side terminal inspector panels).
+
+## Elevation & Depth
+
+Visual hierarchy relies on razor-thin borders paired with controlled, low-dispersion ambient drop shadows. Heavy blurred diffusion and generic drop shadows are omitted in favor of structural precision.
+
+### Elevation Hierarchy
+- **Level 0 (Canvas):** Pure flat surface (`#F8FAFC`), no elevation.
+- **Level 1 (Panels & Dashboard Cards):** Solid `#FFFFFF`, bordered with `1px solid rgba(226, 232, 240, 0.8)`, resting on `0 1px 2px 0 rgba(15, 23, 42, 0.04)`.
+- **Level 2 (Interactive Floating / Hover Cards / Dropdowns):** Solid `#FFFFFF`, border `#CBD5E1`, with elevation `0 4px 6px -1px rgba(15, 23, 42, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.04)`.
+- **Level 3 (Modal Dialogs / API Key Reveal Drawers):** `0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)` over an ultra-subtle backdrop scrim (`rgba(15, 23, 42, 0.4)` with 4px backdrop blur).
+- **Code Wells & Terminals:** Inset shadow `inset 0 1px 2px rgba(0, 0, 0, 0.06)` inside a solid `#0F172A` background to indicate data containment.
+
+## Shapes
+
+The design uses balanced, modern geometric curvature. Surfaces maintain an intentional softness without turning bubbly or toy-like.
+
+### Token Mapping
+- **Input Fields, Badges, Filter Buttons:** `0.375rem` (6px) to `0.5rem` (8px) for compact, tactile feel.
+- **Cards, Panels, Code Frames:** `0.75rem` (12px) to `1rem` (16px) delivering contemporary framed boundaries.
+- **Modal Overlays & Popovers:** `1rem` (16px).
+- **Telemetry Pills & Status Dots:** Fully rounded `9999px` strictly for numeric hit-rate badges and method tags (GET, POST).
+
+## Components
+
+### Buttons
+- **Primary Action:** Solid `#6366F1` background, `#FFFFFF` text, `0.5rem` radius, subtle `0 1px 2px rgba(99, 102, 241, 0.2)` shadow. On hover, background shifts to `#4F46E5`.
+- **Secondary / Ghost:** Solid `#FFFFFF`, `1px solid #E2E8F0`, `#334155` text. On hover, border changes to `#94A3B8`, background shifts to `#F8FAFC`.
+- **Destructive:** `#FFFFFF` surface with `1px solid #FECDD3`, `#E11D48` text. Hover shifts to `#FFF1F2`.
+
+### Metrics & Trend Cards
+- Header contains label in `body-sm` (`#64748B`) alongside a mono icon.
+- Main value set in `data-metric` (`#0F172A`).
+- Sub-footer contains inline pill badge:
+  - **Savings / Cache Hit:** `#ECFDF5` background, `#059669` text, `+84.2% hit rate`.
+  - **Latency Reduction:** `#EFF6FF` background, `#2563EB` text, `-182ms avg`.
+
+### Request Stream Table
+- **Header:** Sticky, `#F8FAFC` background, `label-mono-caps` text (`#64748B`), 1px bottom border (`#E2E8F0`).
+- **Rows:** Alternating hover highlight (`#F8FAFC`), vertical cell padding `0.75rem`.
+- **Method Badges:**
+  - `GET`: `#F1F5F9` background, `#475569` text.
+  - `POST`: `#EEF2FF` background, `#4F46E5` text.
+  - `DELETE`: `#FFF1F2` background, `#E11D48` text.
+- **Latency / Cost Cells:** Right-aligned monospace values in tabular formatting.
+
+### Code Snippets & Query Playground
+- Dark theme container (`#0F172A`) paired with a high-contrast top utility header containing language selection, copy-to-clipboard trigger, and execution speed badge.
+- Syntax highlighting uses cool slate comments (`#64748B`), electric indigo operators (`#818CF8`), cyan keys (`#38BDF8`), and emerald string returns (`#34D399`).
+
+### API Key Management Vault
+- Secret values masked with bullet indicators (`••••••••••••••••`) set in JetBrains Mono.
+- Action triggers include quick-copy toast triggers, scoped permission chips (Read/Write/Purge), and a dual-key rotation confirmation drawer with strict validation challenge inputs.

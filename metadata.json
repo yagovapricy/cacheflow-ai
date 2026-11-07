@@ -1,0 +1,6 @@
+{
+  "name": "CacheFlow Precision System",
+  "description": "High-throughput API caching and automated cost optimization platform with real-time latency telemetry, live request stream inspector, query playground, and API key vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
